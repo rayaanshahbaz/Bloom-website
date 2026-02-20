@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #333;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.section img {
+    width: 30%;
+    height: auto;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+.btn {
+    background: rgb(228, 148, 0);
+    border: none;
+    width: 135px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.child{
+    width: 20%;
+}
+
+.child img {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.dabbey {
+    padding: 20px;
+    display: flex;
+    gap: 0.5px;
+    justify-content: space-around;
+ 
+}
+
+.footer {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    background: #2f2f2f;
+    color: #ffffff;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card > img {
+    width: 15%;
+}
+
+.f {
+    width: 30%;
+    align-items: center;
+    
+}
+
+.child {
+    width: 20%;
+    
+}
+
+.child > img {
+    width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  padding: 40px 10px;
+  
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.footer-bottom > p {
+    color: black;
+}
+
+.f ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stay-connected-list > li {
+  font-size: 21px;
+  color: white;
+}
+
+.stay-connected-list > li {
+  display: flex;
+  gap: 15px; 
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: lightcyan;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-size: 100px;
+    font-style: bold;
+    margin-top: 170px;
+    
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    font-size: larger;
+}
+
